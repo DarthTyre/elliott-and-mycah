@@ -7,6 +7,7 @@ import * as React from 'react';
 
 import * as logo from '../../images/eandm.webp';
 import { About } from '../About';
+import { Registry } from '../Registry';
 import { Venue } from '../Venue';
 import { WeddingParty } from '../WeddingParty';
 
@@ -38,8 +39,7 @@ export const routes: Route[] = [
     href: '/registry',
     label: 'Registry',
     icon: <ShoppingCartIcon />,
-    content: <></>,
-    underConstruction: true,
+    content: <Registry />,
   },
   {
     href: '/accomodations',
